@@ -1,0 +1,33 @@
+server:
+  port: 9004
+
+spring:
+  cloud:
+    config:
+      server:
+        svn:
+          uri: https://192.168.10.221/svn/group-auto/costmanage/repo/config-repo
+          username: baizhanshi
+          password: Lt167Cko221
+        default-label: trunk
+  profiles:
+    active: subversion #这里需要显示声明为subversion
+  application:
+      name: spring-cloud-config
+
+  rabbitmq:
+      host: 192.168.10.183
+      port: 5672
+      username: user_admin
+      password: passwd_admin
+      virtual-host: /
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/   ## 注册中心eurka地址  实现配置文件的高可用
+
+
+management:
+  security:
+     enabled: false
