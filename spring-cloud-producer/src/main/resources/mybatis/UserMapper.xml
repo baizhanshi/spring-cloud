@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bai.mapper.UserMapper">
+
+    <select id="getAll" resultType="com.bai.domain.UserEntity">
+     SELECT u.id,u.email,u.user_name userName,u.pass_word PASSWORD,
+        u.nick_name nickName,u.reg_time regTime FROM user u
+    </select>
+
+    <select id="getStudent" resultType="com.bai.domain.Student">
+       select * FROM student
+    </select>
+
+</mapper>
