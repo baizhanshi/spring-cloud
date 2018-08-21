@@ -5,22 +5,14 @@ spring:
   cloud:
     config:
       server:
-        svn:
-          uri: https://192.168.10.221/svn/group-auto/costmanage/repo/config-repo
-          username: baizhanshi
-          password: Lt167Cko221
-        default-label: trunk
-  profiles:
-    active: subversion #这里需要显示声明为subversion
+        git:
+          uri: https://github.com/baizhanshi/spring-cloud/     # 配置git仓库的地址
+          search-paths: config-files                            # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username: baizhanshi                                  # git仓库的账号
+          password: baiyu19890422                                # git仓库的密码
   application:
       name: spring-cloud-config
 
-  rabbitmq:
-      host: 192.168.10.183
-      port: 5672
-      username: user_admin
-      password: passwd_admin
-      virtual-host: /
 
 eureka:
   client:

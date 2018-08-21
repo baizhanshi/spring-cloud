@@ -1,7 +1,6 @@
 package com.bai.controller;
 
 import com.bai.domain.Student;
-import com.bai.domain.User;
 import com.bai.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
