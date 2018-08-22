@@ -9,8 +9,6 @@ public class UserEntity {
     private String userName;
     private String passWord;
     private String email;
-    private String nickName;
-    private String regTime;
 
     public Long getId() {
         return id;
@@ -42,21 +40,5 @@ public class UserEntity {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
-
-    public String getRegTime() {
-        return regTime;
-    }
-
-    public void setRegTime(String regTime) {
-        this.regTime = regTime;
     }
 }

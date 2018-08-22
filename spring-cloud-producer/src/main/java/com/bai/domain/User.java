@@ -19,23 +19,11 @@ public class User implements Serializable {
     private String passWord;
     @Column(nullable = false, unique = true)
     private String email;
-    @Column(nullable = true, unique = true)
-    private String nickName;
-    @Column(nullable = false)
-    private String regTime;
 
     public User() {
         super();
     }
 
-    public User(String email, String nickName, String passWord, String userName, String regTime) {
-        super();
-        this.email = email;
-        this.nickName = nickName;
-        this.passWord = passWord;
-        this.userName = userName;
-        this.regTime = regTime;
-    }
 
     public Long getId() {
         return id;
@@ -69,20 +57,5 @@ public class User implements Serializable {
         this.email = email;
     }
 
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
-
-    public String getRegTime() {
-        return regTime;
-    }
-
-    public void setRegTime(String regTime) {
-        this.regTime = regTime;
-    }
 
 }

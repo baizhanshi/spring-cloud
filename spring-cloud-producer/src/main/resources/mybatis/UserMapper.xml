@@ -3,8 +3,7 @@
 <mapper namespace="com.bai.mapper.UserMapper">
 
     <select id="getAll" resultType="com.bai.domain.UserEntity">
-     SELECT u.id,u.email,u.user_name userName,u.pass_word PASSWORD,
-        u.nick_name nickName,u.reg_time regTime FROM user u
+     SELECT * FROM user u
     </select>
 
     <select id="getStudent" resultType="com.bai.domain.Student">
