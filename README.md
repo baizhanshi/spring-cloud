@@ -11,3 +11,5 @@ spring-cloud-gateway 网关路由系统
 spring-cloud-producer 生产者
 
 spring-cloud-consumer 消费者
+
+spring-cloud-ZipKin 调用链
