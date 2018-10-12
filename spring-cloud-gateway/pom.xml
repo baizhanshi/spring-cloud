@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.neo</groupId>
-	<artifactId>gateway-service-zuul-eureka</artifactId>
+	<artifactId>spring-cloud-zuul</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>gateway-service-zuul-eureka</name>
+	<name>spring-cloud-zuul</name>
 	<description>Demo project for Spring cloud zuul</description>
 
 	<parent>
