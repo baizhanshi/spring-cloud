@@ -39,3 +39,16 @@ data/elasticsearch/nodes/0/indices/wx_telesphorus_log/4/translog/translog-1.tlog
 data/elasticsearch/nodes/0/indices/wx_telesphorus_log/4/translog/translog.ckp
 data/elasticsearch/nodes/0/indices/wx_telesphorus_log/_state/state-1.st
 data/elasticsearch/nodes/0/node.lock
+*.st
+*.cfe
+*.cfs
+*.si
+*.lock
+*.ckp
+*.tlog
+*.liv
+data/elasticsearch/nodes/0/indices/log_test/0/index/segments_3
+data/elasticsearch/nodes/0/indices/log_test/1/index/segments_3
+data/elasticsearch/nodes/0/indices/log_test/2/index/segments_3
+data/elasticsearch/nodes/0/indices/log_test/3/index/segments_4
+data/elasticsearch/nodes/0/indices/log_test/4/index/segments_2

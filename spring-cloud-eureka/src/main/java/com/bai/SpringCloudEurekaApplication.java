@@ -12,5 +12,6 @@ public class SpringCloudEurekaApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCloudEurekaApplication.class, args);
+		System.out.println("----------------SpringCloudEurekaApplication项目启动成功！------------------------");
 	}
 }

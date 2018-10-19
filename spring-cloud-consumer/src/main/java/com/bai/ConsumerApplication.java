@@ -18,9 +18,6 @@ public class ConsumerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerApplication.class, args);
-		System.out.println("<><><><><> 消费者springboot项目启动成功！");
+		System.out.println("------------------消费者springboot项目启动成功！------------------------");
 	}
-
-
-
 }
