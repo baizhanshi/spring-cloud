@@ -1,4 +1,4 @@
-package com.bai.controller;
+package com.bai.ONS;
 
 import com.bai.remote.HelloRemote;
 import org.springframework.beans.factory.annotation.Autowired;

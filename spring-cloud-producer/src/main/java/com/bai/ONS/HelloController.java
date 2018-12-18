@@ -1,4 +1,4 @@
-package com.bai.controller;
+package com.bai.ONS;
 
 import com.bai.domain.User;
 import com.bai.domain.UserDTO;
